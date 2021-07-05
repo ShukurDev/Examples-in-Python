@@ -1,27 +1,27 @@
-#filename='Documents\GitHub\Python_Tasks/sh.txt'
-# with open(filename) as file:
-#     for line in file:
-#         print(line)
-# talabalar=[]
-# with open(filename) as file:
-#     talabalar =file.readlines()
-# talabalar = [talaba.rstrip() for talaba in talabalar]
-# print(talabalar)
-#     pi=file.read()
-# pi=pi.rstrip()
-# pi=pi.replace('\n','')
-# print(pi)
+filename='Documents\GitHub\Python_Tasks/sh.txt'
+with open(filename) as file:
+    for line in file:
+        print(line)
+talabalar=[]
+with open(filename) as file:
+    talabalar =file.readlines()
+talabalar = [talaba.rstrip() for talaba in talabalar]
+print(talabalar)
+    pi=file.read()
+pi=pi.rstrip()
+pi=pi.replace('\n','')
+print(pi)
 
-#filen='Documents\GitHub\Python_Tasks/new_file'
-# ism='Gulchiroy'
-# yosh=20
-# with open(filen,'w') as f:
-#     f.write(ism + '\n')
-#     f.write(str(yosh) + '\n')
+filen='Documents\GitHub\Python_Tasks/new_file'
+ism='Gulchiroy'
+yosh=20
+with open(filen,'w') as f:
+    f.write(ism + '\n')
+    f.write(str(yosh) + '\n')
  
-# with open(filen,'a') as f:
-#     f.write('Elinur' + '\n')
-#     f.write('2002'+'\n')
+with open(filen,'a') as f:
+    f.write('Elinur' + '\n')
+    f.write('2002'+'\n')
 
 import pickle
 
@@ -34,8 +34,3 @@ with open(file_pkl,'wb') as f:
     pickle.dump(t1,f)
     pickle.dump(t2,f)
 
-with open(file_pkl,'rb'):
-    t1=pickle.load(f)
-    t2=pickle.load(f)
-print(t1)
-print(t2)
