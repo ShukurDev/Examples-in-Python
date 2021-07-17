@@ -1,8 +1,0 @@
-# 1-task
-
-def multiply(*son):
-    p=1
-    for i in son:
-        p*=i
-    return p
-print(multiply(1,2,3,4,55,6,776,65,546,976))
