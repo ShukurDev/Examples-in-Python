@@ -1,3 +1,6 @@
+# Quyidagi dasturimiza biz foydalanuvchi va kompyuter urtasida bullaigan uyin dasturini uzdik.
+# Izoh: 1- urinda kompyuter  son uylaydi biz uni topishga harakat qillamiz va
+# keyin biz son uylaymiz kompyuter u sonni topishga harakat qiladi oxirida natijalarni taqqoslab km yutganligini aytadi.
 
 import random as r
 #n=int(input())

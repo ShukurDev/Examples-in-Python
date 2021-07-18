@@ -1,32 +1,30 @@
-#(1) --> Web sahifangiz uchun foydalanuvchi (user) klassini tuzing. Klassning xususiyatlari sifatida odatda ijtimoiy tarmoqlar talab qiladigan ma'lumotlarni kiriting (ism, foydalanuvchi ismi, email, va hokazo) (2) --> Klassga bir nechta metodlar qo'shing, jumladan get_info() metodi foydalanuvchi haqida yig'ilgan ma'lumotlarni chiroyli qilib chiqarsin (masalan: "Foydalanuvchi: alijon1994, ismi: Alijon Valiyev, email: alijon1994@gmail.com).(3) --> Klassdan bir nechta obyektlar yarating va uning xususiyatlari va metodlariga murojat qiling.
+"""
+01/01/2021
+Dasturlash asoslari
+#24-dars: FUNKSIYALAR
+Web sahifa: https://python.sariq.dev
+"""
+from math import sqrt # sqrt - kvadrat ildiz
 
-class foydalanuvchi:
-    def __init__(self,ism,familiya,email,login,tyil,tjoy,tnom):
-        self.name =ism
-        self.familiya= familiya
-        self.email=email
-        self.login=login
-        self.tyil=tyil
-        self.tjoy=tjoy
-        self.tnom=tnom
-    def get_info(self):
-      return f"Foyadalanuvchi ismi = {self.name}.title().\nFamiliyasi = {self.familiya}\nElektron pohta manzili : {self.email}\nLogin = {self.login}\nTug'ulgan yili = {self.tyil}\nTug'ulgan joy = {self.tjoy}\nTel nomeri = {self.tnom}"
-ismr=input("Foydalanuvchining ismini kiriting: ")
-fm=input("Foydalanuvchining familiyasini kiriting: ")
-em=input("Foyalanuvchining e-manzilini kiriting: ")
-lg=input("Foyalanuvhcining loginni kiriting: ")
-ty=int(input("Foyalanuchining tug'ilgan yilini kiriting: "))
-tj=input("Foydalanuchining tug'ilgan joyini kiting : ")
-tn=(input("Foydallanuchining tel nomrini kiting: "))
-user=foydalanuvchi(ismr,fm,em,lg,tn,ty,tj)
-print(user.get_info())
-print("Ikkinchi foydalanuvchining ma'lumotlarini kiritng!")
-ismr1=input("Foydalanuvchining ismini kiriting: ")
-fm1=input("Foydalanuvchining familiyasini kiriting: ")
-em1=input("Foyalanuvchining e-manzilini kiriting: ")
-lg1=input("Foyalanuvhcining loginni kiriting: ")
-ty1=int(input("Foyalanuchining tug'ilgan yilini kiriting: "))
-tj1=input("Foydalanuchining tug'ilgan joyini kiting : ")
-tn1=(input("Foydallanuchining tel nomrini kiting: "))
-object1=foydalanuvchi(ismr1,fm1,em1,lg1,tn1,ty1,tj1)
-print(user.__dict__)
+sonlar = list(range(11)) # 0 dan 10 gacha sonlar ro'yxati
+# ildizlar = list(map(sqrt,sonlar))
+# print(ildizlar)
+
+
+# def daraja2(x):
+#     """Berilgan sonning kvadratini qaytaruvchi funksiya"""
+#     return x*x
+
+# print(list(map(daraja2,sonlar)))
+
+kvadratlar = list(map(lambda x:x*x,sonlar))
+# print(kvadratlar)
+
+
+a = [4, 5, 6]
+b = [7, 8, 9]
+a_plus_b = list(map(lambda x,y:x+y,a,b))
+print(a_plus_b)
+
+# ismlar = ['hasan','husan','olim','umid']
+# print(list(map(lambda matn:matn.upper(),ismlar)))
