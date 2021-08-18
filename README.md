@@ -1,3 +1,3 @@
 # Python_Tasks
 
-Python dastrulash tilida yechiligan masalalarni topshiriq qilib yechimi quyilgan kirib kurishingiz vaishlatib kurishingiz mumkin.
+Python dasturlash tilida yechilgan masalalarni topshiriq qilib yechimi quyilgan kirib kurishingiz va ishlatib kurishingiz mumkin.
