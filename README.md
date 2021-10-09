@@ -1,3 +1,4 @@
+![This is an image](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200612153905/Python-Programming-Examples1.png)
 # Solve various problems with Python
 
 * Benefits *
