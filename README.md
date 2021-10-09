@@ -6,5 +6,6 @@
 > 2. Python is solved from all topics of the programming language
 > 3. The code can be downloaded and studied.
 
-# List of codes given.
-1. Introduction - [The Python Tutorial](https://docs.python.org/3/tutorial/).:white_check_mark:
+# Learn more about Python.
+- Python Documentation - [more](https://docs.python.org/3/tutorial/).:white_check_mark:
+
