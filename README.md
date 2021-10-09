@@ -7,4 +7,4 @@
 > 3. The code can be downloaded and studied.
 
 # List of codes given.
--  Introduction :white_check_mark:
+-  Introduction - [The Python Tutorial](https://docs.python.org/3/tutorial/).:white_check_mark:
