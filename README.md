@@ -7,3 +7,4 @@
 > 3. The code can be downloaded and studied.
 
 # List of codes given.
+-'Varible'-
